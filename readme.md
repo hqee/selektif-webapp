@@ -32,3 +32,17 @@
 - `peserta` — Menyimpan data alternatif / calon anggota
 - `kriteria` — Menyimpan data kriteria dan bobot
 - `nilai` — Menyimpan nilai kecocokan peserta terhadap setiap kriteria
+
+## 📸 Tampilan Antarmuka (Screenshot)
+
+![Welcome Page](assets/images/welcomepage.png)
+
+![Dashboard](assets/images/home.png)
+
+![Manajemen Data](assets/images/managedata.png)
+
+![Step 1](assets/images/step1.png)
+![Step 2](assets/images/step2.png)
+![Step 3](assets/images/step3.png)
+![Step 4](assets/images/step4.png)
+![Step 5](assets/images/step5.png)
