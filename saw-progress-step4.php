@@ -23,7 +23,7 @@ require 'layout/head.php';
                                 <thead class="table-light">
                                     <tr>
                                         <th>Nama Peserta</th>
-                                        <th>Nilai Preferensi</th>
+                                        <th class='text-center'>Nilai Preferensi</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -73,7 +73,7 @@ require 'layout/head.php';
 
                                         echo "<tr>";
                                         echo "<td>{$peserta['nama']}</td>";
-                                        echo "<td>" . round($total_preferensi, 4) . "</td>";
+                                        echo "<td  class='text-center'>" . round($total_preferensi, 4) . "</td>";
                                         echo "</tr>";
                                     }
                                     ?>

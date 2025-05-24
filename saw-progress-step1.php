@@ -21,10 +21,10 @@
                             <table class="table table-bordered mt-4">
                                 <thead class="table-light">
                                     <tr>
-                                        <th>No</th>
+                                        <th class="text-center">No</th>
                                         <th>Nama Kriteria</th>
-                                        <th>Bobot</th>
-                                        <th>Jenis</th>
+                                        <th class="text-center">Bobot</th>
+                                        <th class="text-center">Jenis</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -34,10 +34,10 @@
                                     $q = $koneksi->query("SELECT * FROM kriteria");
                                     while ($d = $q->fetch_assoc()) {
                                         echo "<tr>
-                                                <td>{$no}</td>
+                                                <td class='text-center'>{$no}</td>
                                                 <td>{$d['nama_kriteria']}</td>
-                                                <td>{$d['bobot']}</td>
-                                                <td>" . ucfirst($d['jenis']) . "</td>
+                                                <td  class='text-center'>{$d['bobot']}</td>
+                                                <td  class='text-center'>" . ucfirst($d['jenis']) . "</td>
                                               </tr>";
                                         $no++;
                                     }

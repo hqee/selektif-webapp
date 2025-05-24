@@ -32,7 +32,7 @@ require 'layout/head.php';
                                         $kriteria_array = [];
                                         while ($k = $kriteria->fetch_assoc()) {
                                             $kriteria_array[] = $k;
-                                            echo "<th>{$k['nama_kriteria']}</th>";
+                                            echo "<th  class='text-center'>{$k['nama_kriteria']}</th>";
                                         }
                                         ?>
                                     </tr>
@@ -80,7 +80,7 @@ require 'layout/head.php';
                                                 $r = $max_min[$kid]['min'] / $n;
                                             }
 
-                                            echo "<td>" . round($r, 4) . "</td>";
+                                            echo "<td  class='text-center'>" . round($r, 4) . "</td>";
                                         }
 
                                         echo "</tr>";

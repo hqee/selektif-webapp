@@ -22,9 +22,9 @@ require 'layout/head.php';
                             <table class="table table-bordered mt-4">
                                 <thead class="table-light">
                                     <tr>
-                                        <th>Ranking</th>
-                                        <th>Nama Peserta</th>
-                                        <th>Nilai Preferensi</th>
+                                        <th class='text-center'>Ranking</th>
+                                        <th class='text-center'>Nama Peserta</th>
+                                        <th class='text-center'>Nilai Preferensi</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -86,9 +86,9 @@ require 'layout/head.php';
                                     $rank = 1;
                                     foreach ($hasil as $row) {
                                         echo "<tr>";
-                                        echo "<td>{$rank}</td>";
-                                        echo "<td>{$row['nama']}</td>";
-                                        echo "<td>{$row['nilai']}</td>";
+                                        echo "<td  class='text-center'>{$rank}</td>";
+                                        echo "<td  class='text-center'>{$row['nama']}</td>";
+                                        echo "<td  class='text-center'>{$row['nilai']}</td>";
                                         echo "</tr>";
                                         $rank++;
                                     }

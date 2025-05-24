@@ -28,7 +28,7 @@ require 'layout/head.php';
                                         $kriteria_array = [];
                                         while ($k = $kriteria->fetch_assoc()) {
                                             $kriteria_array[] = $k;
-                                            echo "<th>{$k['nama_kriteria']}</th>";
+                                            echo "<th  class='text-center'>{$k['nama_kriteria']}</th>";
                                         }
                                         ?>
                                     </tr>
@@ -42,7 +42,7 @@ require 'layout/head.php';
 
                                         foreach ($kriteria_array as $k) {
                                             $nilai = $koneksi->query("SELECT nilai FROM nilai WHERE peserta_id = '{$p['id']}' AND kriteria_id = '{$k['id']}'")->fetch_assoc();
-                                            echo "<td>" . ($nilai['nilai'] ?? '-') . "</td>";
+                                            echo "<td  class='text-center'>" . ($nilai['nilai'] ?? '-') . "</td>";
                                         }
 
                                         echo "</tr>";
