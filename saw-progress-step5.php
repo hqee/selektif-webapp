@@ -97,6 +97,7 @@ require 'layout/head.php';
                             </table>
                             <div class="text-end mt-4">
                                 <a href="saw-progress-step4.php" class="btn btn-secondary">Kembali</a>
+                                <a href="export_ranking_excel.php" class="btn btn-primary">Export ke Excel</a>
                                 <a href="login.php" class="btn btn-success">Selesai</a>
                             </div>
                         </div>
