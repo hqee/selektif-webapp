@@ -10,15 +10,15 @@
 
 ## 🎯 Fitur Utama
 
-- ✅ Input dan manajemen data **peserta (alternatif)**
-- ✅ Input dan manajemen **kriteria beserta bobot**
-- ✅ Proses perhitungan SAW:
+- Input dan manajemen data **peserta (alternatif)**
+- Input dan manajemen **kriteria beserta bobot**
+- Proses perhitungan SAW:
   - Matriks keputusan
   - Normalisasi
   - Nilai preferensi
   - Skor akhir dan perankingan
-- ✅ Tampilan hasil dan proses secara **bertingkat (step-by-step)**
-- ✅ Responsif menggunakan **Bootstrap**
+- Tampilan hasil dan proses secara **bertingkat (step-by-step)**
+- Responsif menggunakan **Bootstrap**
 
 ## 🛠️ Teknologi yang Digunakan
 

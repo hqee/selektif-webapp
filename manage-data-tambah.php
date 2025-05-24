@@ -4,7 +4,7 @@
 
 <body>
     <?php
-    include 'database/conn.php';
+    include 'service/conn.php';
     $kriteria = mysqli_query($koneksi, "SELECT * FROM kriteria");
     ?>
 

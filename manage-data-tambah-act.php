@@ -1,5 +1,5 @@
 <?php
-include 'database/conn.php';
+include 'service/conn.php';
 
 $nama = $_POST['nama'];
 $nilai = $_POST['nilai'];

@@ -4,7 +4,7 @@
 
 <body>
     <?php
-    include 'database/conn.php';
+    include 'service/conn.php';
     $kriteria = mysqli_query($koneksi, "SELECT * FROM kriteria");
     $peserta = mysqli_query($koneksi, "SELECT * FROM peserta");
     ?>
@@ -13,7 +13,7 @@
         <?php require "layout/navbar.php"; ?>
         <div id="main">
             <div class="page-heading">
-                <h3>Manage Data Peserta</h3>
+                <h3>Manajemen Data Peserta dan Kriteria</h3>
 
             </div>
             <div class="page-content justify-content-center">
@@ -21,8 +21,14 @@
                     <div class="card border-light mb-3">
                         <div class="card-body fs-5">
                             <p class="card-text">
-                                Berikut adalah data peserta beserta nilai pada tiap kriteria. Anda dapat menambahkan, mengubah, atau menghapus data.
+                                Halaman ini menampilkan data calon anggota beserta nilai mereka pada masing-masing kriteria penilaian. <br>Anda dapat melakukan:
                             </p>
+                            <ol type="1">
+                                <li>Penambahan data peserta atau kriteria baru</li>
+                                <li>Pengeditan nilai atau informasi peserta</li>
+                                <li>Penghapusan data jika diperlukan</li>
+                            </ol>
+                            <p>Pastikan data yang dimasukkan akurat untuk mendapatkan hasil seleksi yang objektif dan valid.</p>
 
                             <table class="table table-bordered table-hover">
                                 <thead class="table-light">

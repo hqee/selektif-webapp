@@ -1,5 +1,5 @@
 <?php
-require 'database/conn.php';
+require 'service/conn.php';
 require 'layout/head.php';
 ?>
 
@@ -16,7 +16,7 @@ require 'layout/head.php';
                     <div class="card border-light mb-3" style="max-width: 75rem;">
                         <div class="card-body fs-5">
                             <p class="card-text">
-                                Berikut adalah nilai dari setiap alternatif (peserta) terhadap masing-masing kriteria:
+                                Berikut adalah tabel nilai dari setiap peserta (alternatif) terhadap setiap kriteria yang telah ditentukan. Nilai ini merupakan input awal untuk perhitungan SAW.
                             </p>
 
                             <table class="table table-bordered mt-4">

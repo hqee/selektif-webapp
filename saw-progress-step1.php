@@ -15,7 +15,7 @@
                     <div class="card border-light mb-3" style="max-width: 75rem;">
                         <div class="card-body fs-5">
                             <p class="card-text">
-                                Tabel berikut menampilkan bobot preferensi yang telah ditentukan untuk setiap kriteria penilaian calon anggota:
+                                Tabel berikut menunjukkan bobot atau tingkat kepentingan dari masing-masing kriteria penilaian yang digunakan untuk mengevaluasi calon anggota.
                             </p>
 
                             <table class="table table-bordered mt-4">
@@ -29,7 +29,7 @@
                                 </thead>
                                 <tbody>
                                     <?php
-                                    include 'database/conn.php';
+                                    include 'service/conn.php';
                                     $no = 1;
                                     $q = $koneksi->query("SELECT * FROM kriteria");
                                     while ($d = $q->fetch_assoc()) {

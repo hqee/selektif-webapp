@@ -7,15 +7,16 @@
         <?php require "layout/navbar.php"; ?>
         <div id="main">
             <div class="page-heading">
-                <h3>SELEKTIF - Sistem Seleksi Anggota UKM</h3>
+                <h3>Selamat datang di <b>SELEKTIF - Sistem Seleksi Anggota UKM</b></h3>
             </div>
             <div class="page-content justify-content-center">
                 <div class="col-md-10">
                     <div class="card border-light mb-3" style="max-width: 75rem;">
                         <div class="card-body fs-5">
-                            <p class="card-text fs-5"> Aplikasi ini membantu panitia dalam melakukan seleksi calon anggota UKM secara objektif
-                                dan efisien menggunakan metode Simple Additive Weighting (SAW). <br><br> Metode SAW bekerja dengan memberi skor pada setiap kriteria penilaian,
-                                lalu menghitung total skor untuk menentukan peringkat calon anggota.
+                            <p class="card-text fs-5">
+                                Aplikasi ini dirancang untuk membantu panitia dalam melakukan proses seleksi calon anggota UKM secara objektif, efisien, dan transparan menggunakan metode Simple Additive Weighting (SAW).
+                                <br><br>
+                                Metode SAW bekerja dengan memberikan bobot pada setiap kriteria penilaian, lalu menghitung total skor dari setiap calon berdasarkan nilai pada masing-masing kriteria. Skor tertinggi menunjukkan calon dengan tingkat kecocokan terbaik.
                             </p>
                             <hr>
                             <p class="card-text fs-5">

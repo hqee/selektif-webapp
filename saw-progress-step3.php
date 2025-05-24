@@ -1,5 +1,5 @@
 <?php
-require 'database/conn.php';
+require 'service/conn.php';
 require 'layout/head.php';
 ?>
 
@@ -16,8 +16,12 @@ require 'layout/head.php';
                     <div class="card border-light mb-3" style="max-width: 75rem;">
                         <div class="card-body fs-5">
                             <p class="card-text">
-                                Berikut adalah hasil normalisasi dari matriks keputusan berdasarkan tipe kriteria (Benefit atau Cost).
+                                Data pada matriks keputusan kemudian dinormalisasi agar berada pada skala yang seragam. Proses normalisasi disesuaikan dengan tipe kriteria:
                             </p>
+                            <ol type="1">
+                                <li><b>Benefit</b> (semakin besar semakin baik)</li>
+                                <li><b>Cost</b> (semakin kecil semakin baik)</li>
+                            </ol>
 
                             <table class="table table-bordered mt-4">
                                 <thead class="table-light">

@@ -1,5 +1,5 @@
 <?php
-require 'database/conn.php';
+require 'service/conn.php';
 require 'layout/head.php';
 ?>
 
@@ -14,7 +14,7 @@ require 'layout/head.php';
             <div class="page-content justify-content-center">
                 <div class="col-md-10">
                     <div class="card border-light mb-3" style="max-width: 75rem;">
-                        <div class="card-body fs-6">
+                        <div class="card-body fs-5">
                             <p class="card-text">
                                 Berikut adalah hasil akhir dari proses metode SAW, berupa skor total (nilai preferensi) dan peringkat tiap peserta.
                             </p>

@@ -1,5 +1,5 @@
 <?php
-include 'database/conn.php';
+include 'service/conn.php';
 require 'layout/head.php';
 ?>
 
@@ -14,9 +14,9 @@ require 'layout/head.php';
             <div class="page-content justify-content-center">
                 <div class="col-md-10">
                     <div class="card border-light mb-3" style="max-width: 75rem;">
-                        <div class="card-body fs-6">
+                        <div class="card-body fs-5">
                             <p class="card-text">
-                                Pada tahap ini, dilakukan perhitungan nilai preferensi dengan cara menjumlahkan hasil normalisasi dikalikan bobot tiap kriteria.
+                                Pada tahap ini, setiap nilai hasil normalisasi dikalikan dengan bobot kriterianya. Nilai-nilai tersebut dijumlahkan untuk mendapatkan skor akhir (nilai preferensi) masing-masing peserta.
                             </p>
 
                             <table class="table table-bordered mt-4">
