@@ -7,7 +7,7 @@
         <?php require "layout/navbar.php"; ?>
         <div id="main">
             <div class="page-heading">
-                <h3>Selamat datang di <b>SELEKTIF - Sistem Seleksi Anggota UKM</b></h3>
+                <h3>Selamat datang di <b>SELEKTIF - Sistem Seleksi Aktif Anggota UKM</b></h3>
             </div>
             <div class="page-content justify-content-center">
                 <div class="col-md-10">

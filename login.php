@@ -32,7 +32,7 @@
     <div class="d-flex align-items-center justify-content-center min-vh-100 bg-light">
         <div class="text-center p-4" style="width: 100%;">
             <h1 class="mb-3">Selamat datang di <span style="color:#435ebe">SELEKTIF</span></h1>
-            <p class="mb-4 text-muted">Seleksi Aktif UKM</p>
+            <p class="mb-4 text-muted">Sistem Seleksi Aktif Anggota UKM</p>
             <a href="index.php" class="btn btn-primary btn-lg"><b>Masuk</b></a>
         </div>
     </div>
