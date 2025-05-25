@@ -23,7 +23,7 @@
 ## 🛠️ Teknologi yang Digunakan
 
 - PHP (tanpa framework)
-- MySQL / MariaDB
+- MySQL
 - Bootstrap 5
 - HTML5, CSS3, JavaScript
 
